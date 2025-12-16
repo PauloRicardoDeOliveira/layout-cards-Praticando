@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "projeto-cards",
     "version": "1.0.0",
@@ -16,3 +17,23 @@
         "node-sass": "^9.0.0"
     }
 }
+=======
+{
+    "name": "projeto-cards",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass src/sass/main.scss -o dist/css",
+        "watch:sass": "node-sass src/sass/main.scss -o dist/css --watch",
+        "start": "live-server dist --port=8080"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "live-server": "^1.2.2",
+        "node-sass": "^9.0.0"
+    }
+}
+>>>>>>> 2917558d944fb43663e605f40317317c9c1af0d2
